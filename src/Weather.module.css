@@ -7,7 +7,6 @@ width: 100%;
 .second{
     height: 40vh;
     width: 100%;
-    /* background-color: aqua; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,15 +15,15 @@ width: 100%;
     text-align: center;
     color: white;
     font-size: 40px;
-    /* padding-top: 80px */
 }
 .link{
-    font-size: 17px;
+    font-size: 18px;
     color: black;
     text-decoration: none;
 position: relative;
-/* transform: translate(0%,-50%); */
-left: 45%;}
+left: 42%;
+bottom: 6%;
+}
 .city{
     text-align: center;
     font-size: 32px;

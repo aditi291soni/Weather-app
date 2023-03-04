@@ -9,7 +9,7 @@ const App = () => {
   return (
     <Routes>
       <Route path="/" element={<Weather/>}/>
-      <Route path="/:userId" element={<Single/>}/>
+      <Route path="/:name" element={<Single/>}/>
 
     </Routes>
     
