@@ -1,0 +1,47 @@
+
+.first{
+height: 60vh;
+width: 100%;
+/* background-color: rgb(97, 186, 173); */
+}
+.second{
+    height: 40vh;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.weather{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    /* padding-top: 80px */
+}
+.city{
+    text-align: center;
+    font-size: 32px;
+    color: black;
+}
+.semisecond{
+height: 35vh;
+width: 55vh;
+/* background-color: blueviolet; */
+box-shadow: 12px 12px 12px 12px  rgb(89, 84, 84);
+border-radius: 6px;
+position: absolute;
+z-index: 99999999999;
+}
+    input{
+height: 7vh;
+width:70vh ;
+margin: 30px;
+
+    }
+    .firstText{
+        /* background-color: rgb(51, 255, 0); */
+        position: absolute;
+        left:50%;
+        transform: translate(-50%,0);
+        top:15%;
+    }
