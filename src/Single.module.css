@@ -1,0 +1,28 @@
+.imgs{
+    height: 99.4vh;
+    width: 100vw;
+    /* position: absolute; */
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+ 
+}
+.box{
+    height: 80%;
+    width: 30%;
+    position: absolute;
+    top:10%;
+    left:50%;
+    transform: translate(-50%,0);   
+    background-color: rgb(91, 94, 94);
+    border-radius: 5px;
+    opacity: .7;
+}

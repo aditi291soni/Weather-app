@@ -1,10 +1,18 @@
 import React from 'react'
-
-const Single = () => {
+import weather from './weather.webp'
+import css from './Single.module.css'
+const Single = (props) => {
+    console.log("hhd",props.weathers)
   return (
-    <div>
-      
-    </div>
+   <>
+   <div className={css.imgs}>
+      <img src={weather} />
+      <div className={css.box}>
+    <h2> </h2>
+      </div>
+      </div>
+</>
+  
   )
 }
 

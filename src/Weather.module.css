@@ -18,6 +18,13 @@ width: 100%;
     font-size: 40px;
     /* padding-top: 80px */
 }
+.link{
+    font-size: 17px;
+    color: black;
+    text-decoration: none;
+position: relative;
+/* transform: translate(0%,-50%); */
+left: 45%;}
 .city{
     text-align: center;
     font-size: 32px;

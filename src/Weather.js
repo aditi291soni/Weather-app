@@ -42,7 +42,8 @@ setsearch(" ")
       <div className={css.second}>
         <div className={css.semisecond}>
      <img style={{height:"50%",width:"50%",objectFit:"contain",marginLeft:"120px"}}src={cloud} alt="" />
-     {btn?<><h2 className={css.city}>{weathers.name}</h2> <h3 className={css.city}>{weathers.main.temp}°C</h3></>:""}
+     {btn?<><h2 className={css.city}>{weathers.name}</h2> <h3 className={css.city}>{weathers.main.temp}°C</h3><br />     <Link weathers={weathers} className={css.link} to={weathers.name}>view more</Link>
+</>:""}
      <br /> 
         </div>
       </div>

@@ -2,19 +2,18 @@ import React from 'react'
 import Weather from './Weather'
 import Single from './Single'
 import './App.css'
-import { Router,Route } from 'react-router-dom'
+import { Routes,Route,useParams } from 'react-router-dom'
 const App = () => {
-  return (
-    <div>
-    {/* <Router>
-      <Route path="/" element={<Weather/>}/>
-      <Route path="/:id" element={<Single/>}/>
+  let { userId } = useParams();
 
-    </Router> */}
+  return (
+    <Routes>
+      <Route path="/" element={<Weather/>}/>
+      <Route path="/:userId" element={<Single/>}/>
+
+    </Routes>
     
       
-    <Weather/>
-    </div>
   )
 }
 
