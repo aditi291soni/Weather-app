@@ -51,3 +51,12 @@ margin: 30px;
         transform: translate(-50%,0);
         top:15%;
     }
+    @media screen and (max-width: 850px) {
+        .link{
+            
+        bottom: 10%;
+        }
+        .city{
+            margin-top: 0px;
+        }
+    }
